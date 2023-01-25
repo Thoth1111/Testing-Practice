@@ -1,11 +1,11 @@
-const Calc = class Calculator {
+class Calc {
     constructor (int1, int2) {
         this.int1 = int1;
-        this.int2 = int2;
+        this.int2 = int2
     }
 
     add() {
-        return this.int1 + this.int2;
+     return this.int1 + this.int2;
     }
 
     subtract() {
